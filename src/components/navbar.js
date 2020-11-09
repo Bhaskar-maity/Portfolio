@@ -1,42 +1,22 @@
 import React from 'react';
-import {Navbar} from 'react-bootstrap';
-function navbar() {
+import {Navbar,FormControl,Nav,Button, Form} from 'react-bootstrap';
+
+function NavControl() {
+
     return (
-    <div>
-    <Navbar bg="light">
-      <Navbar.Brand href="#home">Brand link</Navbar.Brand>
+    <>
+      <Navbar bg="dark" variant="dark">
+      <Navbar.Brand href="#home">Bhaskar Maity</Navbar.Brand>
+      <Nav className="ml-auto">
+        <Nav.Link href="#home">Home</Nav.Link>
+        <Nav.Link href="#features">About</Nav.Link>
+        <Nav.Link href="#pricing">Work</Nav.Link>
+        <Nav.Link href="#pricing">Contact</Nav.Link>
+      </Nav>
+      
     </Navbar>
-    <br />
-    <Navbar bg="light">
-      <Navbar.Brand>Brand text</Navbar.Brand>
-    </Navbar>
-    <br />
-    <Navbar bg="dark">
-      <Navbar.Brand href="#home">
-        <img
-          src="/logo.svg"
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-          alt="React Bootstrap logo"
-        />
-      </Navbar.Brand>
-    </Navbar>
-    <br />
-    <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="#home">
-        <img
-          alt=""
-          src="/logo.svg"
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-        />{' '}
-        React Bootstrap
-      </Navbar.Brand>
-    </Navbar>
-    </div>
+    </>
     )
 }
 
-export default navbar;
+export default NavControl;
