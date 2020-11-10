@@ -10,8 +10,8 @@ function NavControl() {
       <Nav className="ml-auto">
         <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#features">About</Nav.Link>
-        <Nav.Link href="#pricing">Work</Nav.Link>
-        <Nav.Link href="#pricing">Contact</Nav.Link>
+        <Nav.Link href="#pricing">Projects</Nav.Link>
+        <Nav.Link href="#pricing">Catch me</Nav.Link>
       </Nav>
       
     </Navbar>
