@@ -5,7 +5,7 @@ function NavControl() {
 
     return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="light" variant="light">
       <Navbar.Brand href="#home">Bhaskar Maity</Navbar.Brand>
       <Nav className="ml-auto">
         <Nav.Link href="#home">Home</Nav.Link>
