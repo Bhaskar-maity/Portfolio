@@ -3,11 +3,11 @@ export default
         
         name :'Bhaskar.',
         headerTagline: [//Line 1 For Header
-                        'Hi 👋 You found me! I am Bhaskar Maity.',
+                        'Bhaskar Maity.',
                         //Line 2 For Header
-                        'Digital designer ',
+                        'I love exploring new things!',
                         //Line 3 For Header
-                        'from India'
+                        "I'm a Computer Science Engineering Student at maulana abul kalam azad university, India. Primarily interested in Front-end Development, Opensource development and Machine Learning."
     ],
         //Contact Email
         contactEmail:'maitybhaskar2015@gmail.com',

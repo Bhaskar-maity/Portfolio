@@ -8,18 +8,23 @@ class Header extends Component {
 
     render() {
         return (
-        <div className='container'>
+        <div className='container header'>
         
             <Fade bottom>
-                <p>Hello, my name is</p>
+                <p classname='pt-2'>Hello, my name is</p>
                 <p className='header-title'>
                     {data.headerTagline[0]}
-                    <br></br>
+                    
                     {data.headerTagline[1]}
                     <br></br>
+                </p>
+                    
+
+                    <p>
                     {data.headerTagline[2]}
                     <br></br>
                     </p>
+                
                     <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
                 
             </Fade>
