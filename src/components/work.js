@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Project from './project';
+import Project from './projects';
 import data from '../mydata';
 
 class Work extends Component {
     state = {  }
     render() { 
-        return (<div>
-        <h1 className='heading'>
-        <Fade bottom cascade>Work.</Fade></h1>
+        return (
+        <div>
+        <h1 className='heading'> </h1>
+        <h1>Work.</h1>
         <div className='work-content'>
                 {data.projects.map((project)=>(
                     <Project key={project.id}
