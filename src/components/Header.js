@@ -26,7 +26,7 @@ class Header extends Component {
                     <br></br>
                     </p>
                 
-                    <button variant="dark"><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
+                    <button className='header-btn' variant="dark"><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
                 
             </Fade>
 

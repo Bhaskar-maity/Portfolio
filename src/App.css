@@ -28,9 +28,10 @@
   top:2em;
 }
 
-/* .button{
-  background-color: black;
-  border-radius:50%;
-  border: 0;
-
-} */
+.header-btn{
+  padding: 8px 8px;
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+  background-color: #5eba7d;
+}
