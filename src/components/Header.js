@@ -11,7 +11,7 @@ class Header extends Component {
         <div className='container header'>
         
             <Fade bottom>
-                <p classname='pt-2'>Hello, my name is</p>
+                <p classname='pt-2 h4' >Hello, my name is</p>
                 <p className='header-title'>
                     {data.headerTagline[0]}
                     
@@ -21,11 +21,12 @@ class Header extends Component {
                     
 
                     <p>
+                        
                     {data.headerTagline[2]}
                     <br></br>
                     </p>
                 
-                    <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
+                    <button variant="dark"><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
                 
             </Fade>
 

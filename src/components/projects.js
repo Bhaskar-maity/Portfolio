@@ -5,7 +5,7 @@ class Project extends Component {
     render() { 
         return ( 
         
-        <div className='project'>
+        <div className='project col-md-6'>
         <a href={this.props.url}>
             <img src={this.props.imageSrc} alt={this.props.title}></img>
             </a>
