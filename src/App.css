@@ -1,5 +1,6 @@
 .about {
   margin-top: 4rem;
+  /* padding-top: 4rem !important; */
 }
 
 .about-content{
@@ -10,11 +11,15 @@
 
 /* heading part */
 .header{
-  padding-top: 8rem;
-  padding-bottom: 10rem;
+  height: 100vh;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
   
 }
-
+.header-para{
+  font-size: 1.8rem;
+  
+}
 .header-title{
   
   font-family: 'Montserrat', sans-serif;
