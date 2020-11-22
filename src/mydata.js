@@ -18,7 +18,6 @@ export default
        ShowAboutImage:true,//true or false 
        //  Projects 
        projects:[
-          
 
                    
         ],
