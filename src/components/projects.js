@@ -5,13 +5,14 @@ class Project extends Component {
     render() { 
         return ( 
         
-        <div className='project col-md-6'>
-        <a href={this.props.url}>
-            <img src={this.props.imageSrc} alt={this.props.title}></img>
-            </a>
-            <h1>{this.props.title}</h1>
-            <span>{this.props.service}</span>
-        </div> )
+            <div className=' project '>
+            <a href={this.props.url}>
+                <img src={this.props.imageSrc} alt={this.props.title}></img>
+                </a>
+                <h1>{this.props.title}</h1>
+                <span>{this.props.service}</span>
+            </div>
+        )
             
     }
 }

@@ -1,3 +1,5 @@
+import svm from './images/SVMdigit.png';
+import weather from './images/Weather.jpg';
 export default
     {
         
@@ -18,6 +20,23 @@ export default
        ShowAboutImage:true,//true or false 
        //  Projects 
        projects:[
+           {
+            id: 1,
+            title:'SVM Digit Recognition', 
+            service:'Machine Learning Algorithm', 
+            
+            imageSrc: svm,
+            
+            url:'https://github.com/Bhaskar-maity/SVM-Digit-recognition'
+            },
+            {
+                id: 2,
+                title: 'Weather App',
+                service: 'Website Development',
+                imageSrc: weather,
+                url: 'https://bhaskar-maity.github.io/Javascript-weather-app/'
+            },
+
 
                    
         ],

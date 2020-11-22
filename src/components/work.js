@@ -7,18 +7,22 @@ class Work extends Component {
     render() { 
         return (
         <div>
-        <h1 className='heading'> </h1>
-        <h1>Work.</h1>
-        <div className='work-content'>
-                {data.projects.map((project)=>(
-                    <Project key={project.id}
-                             title = {project.title}
-                             service = {project.service}
-                             imageSrc = {project.imageSrc}
-                             url={project.url}
-                     ></Project>
-                ))}
-        </div>
+            <h1 className='heading'> </h1>
+            <h1>Work.</h1>
+            <div className='container-fluid'>
+                <div className='row'>
+                    <div className='work-content col-md-6'>
+                            {data.projects.map((project)=>(
+                                <Project key={project.id}
+                                        title = {project.title}
+                                        service = {project.service}
+                                        imageSrc = {project.imageSrc}
+                                        url={project.url}
+                                ></Project>
+                            ))}
+                    </div>
+                </div>
+            </div>
         </div>  );
     }
 }
