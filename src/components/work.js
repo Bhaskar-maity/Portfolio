@@ -6,12 +6,12 @@ class Work extends Component {
     state = {  }
     render() { 
         return (
-        <div>
+        <div className='container'>
             <h1 className='heading'> </h1>
             <h1>Work.</h1>
-            <div className='container-fluid'>
+            <div >
                 <div className='row'>
-                    <div className='work-content col-md-6'>
+                    <div className='work-content '>
                             {data.projects.map((project)=>(
                                 <Project key={project.id}
                                         title = {project.title}
