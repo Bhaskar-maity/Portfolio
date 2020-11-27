@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import svm from '../images/SVMdigit.png';
+import weather from '../images/Weather.jpg';
 
 class Project extends Component {
     state = {  }
@@ -6,12 +8,36 @@ class Project extends Component {
         return ( 
             <div className='row'>
                 <div className='col-md-6 project '>
-                <a href={this.props.url}>
-                    <img src={this.props.imageSrc} alt={this.props.title}></img>
-                </a>
-                    <h1>{this.props.title}</h1>
-                    <span>{this.props.service}</span>
+                    <a href=''>
+                        <img src={svm} alt=''></img>
+                    </a>
+                    <h1></h1>
+                    <button> <a href=''>check it </a> </button>
                 </div>
+
+                <div className='col-md-6 project '>
+                    <a href=''>
+                        <img src={weather} alt=''></img>
+                    </a>
+                    <h1></h1>
+                    <button> <a href=''>check it </a> </button>
+                </div>
+
+                {/* <div className='col-md-6 project '>
+                    <a href=''>
+                        <img src={} alt=''></img>
+                    </a>
+                    <h1></h1>
+                    <button> <a href=''>check it </a> </button>
+                </div>
+
+                <div className='col-md-6 project '>
+                    <a href=''>
+                        <img src={} alt=''></img>
+                    </a>
+                    <h1></h1>
+                    <button> <a href=''>check it </a> </button>
+                </div> */}
             </div>
         )
             
