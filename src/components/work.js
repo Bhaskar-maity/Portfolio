@@ -7,17 +7,14 @@ class Work extends Component {
     render() { 
         return (
         <div className='container'>
-            <h1 className='heading'> </h1>
-            <h1>Work.</h1>
-            <div >
-                <div className='row'>
+            <h1 className='heading'> Work. </h1>
+            
                     <div className='work-content '>
                             
-                                <Project/>
+                         <Project/>
                             
                     </div>
-                </div>
-            </div>
+
         </div>  );
     }
 }

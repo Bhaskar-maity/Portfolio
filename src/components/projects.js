@@ -9,7 +9,7 @@ class Project extends Component {
             <div className='row'>
                 <div className='col-md-6 project '>
                     <a href=''>
-                        <img src={svm} alt=''></img>
+                        <img src={svm} alt='' className="img-fluid"></img>
                     </a>
                     <h1></h1>
                     <button> <a href=''>check it </a> </button>
@@ -17,7 +17,7 @@ class Project extends Component {
 
                 <div className='col-md-6 project '>
                     <a href=''>
-                        <img src={weather} alt=''></img>
+                        <img src={weather} alt='' className="img-fluid"></img>
                     </a>
                     <h1></h1>
                     <button> <a href=''>check it </a> </button>
