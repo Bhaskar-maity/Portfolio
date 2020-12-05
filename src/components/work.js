@@ -6,16 +6,14 @@ class Work extends Component {
     state = {  }
     render() { 
         return (
-        <div className='container'>
-            <h1 className='heading'> Work. </h1>
-            
-                    <div className='work-content '>
-                            
-                         <Project/>
-                            
-                    </div>
-
-        </div>  );
+            <div className='work-content '>
+                <div className='container '>
+                    <h1 className='heading'> Work. </h1>
+             
+                        <Project/>
+     
+                </div>
+            </div>  );
     }
 }
  
