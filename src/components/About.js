@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import  'react-bootstrap'
 import data from '../mydata';
 
-class About extends Component {
-    state = {  }
-    render() { 
+const About =()=> {
+    
         return (
         <div className='container'>
 
@@ -22,7 +21,7 @@ class About extends Component {
             </div>
 
         </div>  );
-    }
+    
 }
  
 export default About;

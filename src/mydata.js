@@ -5,7 +5,7 @@ export default
         
         name :'Bhaskar.',
         headerTagline: [
-                        'Web Developer, Competitive programmer',
+                        'Web Developer,Competitive programmer',
                         
                         "Machine Learning Enthusiast",
                         

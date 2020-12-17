@@ -2,19 +2,20 @@ import React, { Component } from 'react';
 import Project from './projects';
 
 
-class Work extends Component {
-    state = {  }
-    render() { 
+const Work =()=> {
+    
         return (
-            <div className='work-content '>
+            
                 <div className='container '>
+                    <div>
                     <h1 className='heading'> Work. </h1>
+                    </div>
              
-                        <Project/>
+                    <Project/>
      
                 </div>
-            </div>  );
-    }
+               );
+    
 }
  
 export default Work;

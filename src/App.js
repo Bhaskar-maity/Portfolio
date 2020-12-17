@@ -8,10 +8,10 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <NavControl/>
-      <Header />
-      <About />
-      <Work />
+      <NavControl> </NavControl>
+      <Header></Header>
+      <About></About>
+      <Work></Work>
     </div>
   );
 }

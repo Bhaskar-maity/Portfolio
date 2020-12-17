@@ -3,13 +3,14 @@ import Fade from 'react-reveal/Fade';
 import data from '../mydata'
 
 
-class Header extends Component {
-    state = {}
+const Header = () => {
+    
 
-    render() {
+   
         return (
         <div className='container header'>
-        
+
+        <div className="col-12">
             <Fade bottom>
                 <p classname='header-para' >Hello, my name is</p>
                 <p className='header-title'>
@@ -29,11 +30,12 @@ class Header extends Component {
                     <button className='header-btn' variant="dark"><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
                 
             </Fade>
+        </div>
 
 
 
         </div>);
-    }
+    
 }
 
 export default Header;
