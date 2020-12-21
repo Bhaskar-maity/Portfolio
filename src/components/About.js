@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import  'react-bootstrap'
 import data from '../mydata';
+import myImg from '../images/MyImg1.jpg';
 
 const About =()=> {
     
@@ -16,7 +17,7 @@ const About =()=> {
                 </div>
 
                 <div className='col-md-6 '>
-                    {data.ShowAboutImage ? <img src={data.aboutImage} alt='about iamge'></img> : null}
+                    {data.ShowAboutImage ? <img src={myImg} alt='about iamge' className='img-fluid'></img> : null}
                 </div>
             </div>
 

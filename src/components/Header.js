@@ -9,7 +9,7 @@ const Header = () => {
    
         return (
         <div className='container header'>
-
+            <div className="row">
         <div className="col-12">
             <Fade bottom>
                 <p classname='header-para' >Hello, my name is</p>
@@ -30,6 +30,7 @@ const Header = () => {
                     <button className='header-btn' variant="dark"><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
                 
             </Fade>
+        </div>
         </div>
 
 
