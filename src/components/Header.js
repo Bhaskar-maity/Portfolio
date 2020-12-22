@@ -10,28 +10,28 @@ const Header = () => {
         return (
         <div className='container header'>
             <div className="row">
-        <div className="col-12">
-            <Fade bottom>
-                <p classname='header-para' >Hello, my name is</p>
-                <p className='header-title'>
-                    {data.headerTagline[0]}
-                    
-                    {data.headerTagline[1]}
-                    <br></br>
-                </p>
-                    
+                <div className="col-12">
+                    <Fade bottom>
+                        <p classname='header-para' >Hello, my name is</p>
+                        <p className='header-title'>
+                            {data.headerTagline[0]}
+                            
+                            {data.headerTagline[1]}
+                            <br></br>
+                        </p>
+                            
 
-                    <p className='header-para'>
+                            <p className='header-para'>
+                                
+                            {data.headerTagline[2]}
+                            <br></br>
+                            </p>
                         
-                    {data.headerTagline[2]}
-                    <br></br>
-                    </p>
-                
-                    <button className='header-btn' variant="dark"><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
-                
-            </Fade>
-        </div>
-        </div>
+                            <button className='header-btn' variant="dark"><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
+                        
+                    </Fade>
+                </div>
+            </div>
 
 
 

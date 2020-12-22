@@ -11,7 +11,7 @@
 
 /* heading part */
 .header{
-  height: 100vh;
+  height: 700px;
   padding-top: 9rem;
   padding-bottom: 2rem;
   
@@ -48,4 +48,8 @@
   }
   
   /* work */
- 
+
+ .work {
+   margin-top: 3rem;
+   align-self: center !important;
+ }

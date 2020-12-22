@@ -20,27 +20,41 @@ export default
        
        ShowAboutImage:true,//true or false 
        //  Projects 
-       projects:[
-           {
-            id: 1,
-            title:'SVM Digit Recognition', 
-            service:'Machine Learning Algorithm', 
-            
-            imageSrc: svm,
-            
-            url:'https://github.com/Bhaskar-maity/SVM-Digit-recognition'
-            },
-            {
-                id: 2,
-                title: 'Weather App',
-                service: 'Website Development',
-                imageSrc: weather,
-                url: 'https://bhaskar-maity.github.io/Javascript-weather-app/'
-            },
-
-
-                   
-        ],
+       projects: [
+        {
+          id: 1, 
+          title: "SVM-Digit-recognition", 
+          para:
+            "A classic problem in the field of pattern recognition is that of handwritten digit recognition. Suppose that you have images of handwritten digits ranging from 0-9.",
+          
+          imageSrc:
+            "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+          
+          url: "https://github.com/Bhaskar-maity/SVM-Digit-recognition",
+        },
+        {
+          id: 2, 
+          title: "Javascript-weather-app", 
+          para:
+            "A simple weather web application using Html, Css, Javascript, Weathermap Api.", 
+          
+          imageSrc:
+            "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+          
+          url: "https://github.com/Bhaskar-maity/Javascript-weather-app",
+        },
+        {
+          id: 3, 
+          title: "DummyPortfolioWebsite", 
+          para:
+            "A simple weather web application using Html, Css, Javascript, Weathermap Api.", 
+          
+          imageSrc:
+            "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+          
+          url: "https://github.com/Bhaskar-maity/DummyPortfolioWebsite",
+        },
+    ],
         social: [
             
            
