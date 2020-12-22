@@ -53,3 +53,12 @@
    margin-top: 3rem;
    align-self: center !important;
  }
+
+ hr {
+  background-color: rgb(97, 219, 251);
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: rgb(97, 219, 251);
+  border-image: initial;
+  margin: 2rem auto;
+}
