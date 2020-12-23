@@ -1,5 +1,7 @@
 import svm from './images/SVMdigit.png';
 import weather from './images/Weather.jpg';
+
+
 export default
     {
         
@@ -55,8 +57,5 @@ export default
           url: "https://github.com/Bhaskar-maity/DummyPortfolioWebsite",
         },
     ],
-        social: [
-            
-           
-        ]
+        
     }

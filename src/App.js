@@ -5,6 +5,7 @@ import NavControl from './components/navbar'
 import About from './components/About'
 import Work from './components/work';
 import Header from './components/Header';
+import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Header></Header>
       <About></About>
       <Work></Work>
+      <Footer></Footer>
     </div>
   );
 }

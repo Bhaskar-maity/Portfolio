@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Project from './projects';
 import {Card,CardColumns, Button} from 'react-bootstrap';
 
 

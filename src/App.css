@@ -54,6 +54,8 @@
    align-self: center !important;
  }
 
+
+ /* hr */
  hr {
   background-color: rgb(97, 219, 251);
   border-width: 0.1rem;
