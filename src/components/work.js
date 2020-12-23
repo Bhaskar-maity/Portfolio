@@ -11,7 +11,8 @@ const Work = () => {
     <section id="projects" className=''>
     <div className="container">
       <h2  className='mt-5' style={{textAlign:'center'}}>Projects</h2>
-      <hr />
+      <hr class="ribbon"/>
+      <hr class="ribbon-little"/>
 
       <Fade bottom>
       <CardColumns>
