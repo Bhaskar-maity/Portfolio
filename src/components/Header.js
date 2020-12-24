@@ -10,10 +10,11 @@ const Header = () => {
         return (
         <div className='container header'>
             <div className="row">
-                <div className="col-12">
+                <div className="col-12 text-center">
                     <Fade bottom>
-                        <p classname='header-para' >Hello, my name is</p>
-                        <p className='header-title'>
+                        {/* <p classname='header-para' >Hello, my name is</p> */}
+                        <h1 className='header-title'> Bhaskar Maity</h1>
+                        <p className='header-banner'>
                             {data.headerTagline[0]}
                             
                             {data.headerTagline[1]}

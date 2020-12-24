@@ -23,7 +23,7 @@
 .header-title{
   
   font-family: 'Montserrat', sans-serif;
-  font-size: 45px;
+  font-size: 5rem;
   box-sizing: border-box;
   /* text-align: left; */
   top:2em;
@@ -38,6 +38,9 @@
 }
 .header p {
   box-sizing: border-box;
+}
+.header-banner {
+  font-size: 2.5rem;
 }
 
 /*  Projects */

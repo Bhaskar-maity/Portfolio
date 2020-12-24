@@ -7,11 +7,11 @@ export default
         
         name :'Bhaskar.',
         headerTagline: [
-                        'Web Developer,Competitive programmer',
+                        'Web Developer,Competitive programmer, ',
                         
                         "Machine Learning Enthusiast",
                         
-                        'I love exploring new things!',
+                        'Love exploring new things!',
                         
     ],
         //Contact Email
