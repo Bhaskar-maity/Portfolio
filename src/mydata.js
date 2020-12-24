@@ -4,7 +4,7 @@ import DummyP from './images/DummyPortfolio.png';
 import Mern from './images/MERN.png';
 import Turtle from './images/turtleScreenshot.png';
 import Tourism from './images/touristImg.png';
-import React, { Component }  from 'react';
+import React from 'react';
 import {
   FaHtml5,
   FaCss3Alt,

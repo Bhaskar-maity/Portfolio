@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Card,CardColumns, Button} from 'react-bootstrap';
 
 
@@ -21,7 +21,7 @@ const Work = () => {
             <Card key={project.id} className='text-center'>
               <Card.Img variant="top" src={project.imageSrc} />
               <Card.Body>
-                  <a href={project.url} target="_blank" rel="noreferrer">
+                  <a href={project.url} target="_blank" rel="noopener noreferrer">
                     <Card.Title className="d-inline-block">
                       {project.title}
                     </Card.Title>
