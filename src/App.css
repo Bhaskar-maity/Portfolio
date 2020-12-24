@@ -114,7 +114,16 @@
 }
 .social-icons-footer li{
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.8em;
   margin: 0 .5em;
 
+}
+
+/* a link */
+a {
+  text-decoration: none !important;
+  color: #575b60;
+}
+a:hover {
+  color: #512DA8;
 }

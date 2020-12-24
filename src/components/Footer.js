@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <Fade bottom>
       <section id="social-media">
-    <div class="container">
+    <div class="container mt-5">
           <div className="row justify-content-center">             
                 <div className="col-auto">
                   <h1 class="title text-center">Contact Me</h1>
