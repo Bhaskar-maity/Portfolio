@@ -8,7 +8,10 @@
   padding-bottom: 6rem;
   font-size: large;
 }
-
+.about-img {
+  padding-top: 7rem;
+  padding-bottom: 6rem;
+}
 /* heading part */
 .header{
   height: 700px;
