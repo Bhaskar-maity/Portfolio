@@ -32,8 +32,10 @@ export default
         //Contact Email
         contactEmail:'maitybhaskar2015@gmail.com',
         // About Text 
-        abouttext: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        
+        abouttext:[ "Hi, I'm Bhaskar I'm 3rd year BTech CSE student at Brainware Group of Institutions-SDET under MAKAUT (formerly known as WBUT), who loves to transform ideas into reality using code.",
+        "I aspire to be an excellent Software Engineer and use my skills to make something productive and helpful for the nation. MY greatest strength is my positive attitude , even during the most hardest of times. ",
+        "My Areas of Interest: Machine Learning, Web Development, Mobile App Development",
+  ],
        
        ShowAboutImage:true,
        //  Projects 

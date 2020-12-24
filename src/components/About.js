@@ -13,7 +13,9 @@ const About = () => {
         <hr class="ribbon-little" />
         <div className="row about">
           <div className="about-content col-md-6">
-            <p>{data.abouttext}</p>
+            <p>{data.abouttext[0]}</p>
+            <p>{data.abouttext[1]}</p>
+            <p>{data.abouttext[2]}</p>
           </div>
 
           <div className="col-md-6 about-img">
