@@ -1,6 +1,5 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../mydata"
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaKaggle } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
@@ -30,7 +29,7 @@ const Footer = () => {
           </ul>
           </div>
           <div className=' col-md-6 text-center'>
-                          <p className='ml-quto copyright-footer'>Made By ❤ Bhaskar Maity    --All Right Reserved</p>
+                          <p className='ml-quto copyright-footer'> Copyright © 2020 – Site designed & developed by Bhaskar Maity</p>
           </div>
         </div>
     </div>

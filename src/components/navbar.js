@@ -9,7 +9,7 @@ function NavControl() {
   return (
     <Navbar
       collapseOnSelect
-      expand="md"
+      expand="sm"
       className="navbar-dark sticky-top"
       variant="dark"
     >
