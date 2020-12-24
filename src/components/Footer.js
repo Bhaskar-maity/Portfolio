@@ -7,7 +7,7 @@ import { FiMail } from "react-icons/fi";
 const Footer = () => {
   return (
     <Fade bottom>
-      <section id="social-media">
+      <section id="contact">
     <div class="container mt-5">
           <div className="row justify-content-center">             
                 <div className="col-auto">

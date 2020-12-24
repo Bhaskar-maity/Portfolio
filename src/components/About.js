@@ -7,7 +7,7 @@ import myImg from "../images/MyImg1.jpg";
 const About = () => {
   return (
     <Fade bottom>
-      <div className="container ">
+      <div className="container " id='about'>
         <h1 className="pb-5 text-center">About.</h1>
         <hr class="ribbon" />
         <hr class="ribbon-little" />

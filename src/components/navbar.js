@@ -1,11 +1,8 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import {
   Navbar,
-  FormControl,
   Nav,
-  Button,
-  Form,
-  NavDropdown,
 } from "react-bootstrap";
 
 function NavControl() {
@@ -21,11 +18,52 @@ function NavControl() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">About</Nav.Link>
-            <Nav.Link href="#pricing">Skills</Nav.Link>
-            <Nav.Link href="#pricing">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Catch me</Nav.Link>
+          <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+          ><Nav.Link href="#home">Home</Nav.Link></Link>
+
+          <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+          ><Nav.Link href="#about">About</Nav.Link></Link>
+
+          <Link
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+          ><Nav.Link href="#skills">Skills</Nav.Link></Link>
+
+          <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+          ><Nav.Link href="#projects">Projects</Nav.Link></Link>
+
+          <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+          ><Nav.Link href="#contact">Catch me</Nav.Link></Link>
+
+            
           </Nav>
         </Navbar.Collapse>
       </div>

@@ -9,7 +9,7 @@ const Header = () => {
 
    
         return (
-        <div className='container header'>
+        <div className='container header' id='home'>
             <div className="row">
                 <div className="col-12 text-center">
                     <Fade bottom>
