@@ -101,3 +101,12 @@
   margin: 0 .5em;
   font-size: clamp(1em,3.2vw,2.5em);
 }
+.social-icons-footer{
+  list-style: none;
+}
+.social-icons-footer li{
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 0 .5em;
+
+}

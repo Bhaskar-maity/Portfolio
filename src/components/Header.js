@@ -13,7 +13,7 @@ const Header = () => {
             <div className="row">
                 <div className="col-12 text-center">
                     <Fade bottom>
-                        {/* <p classname='header-para' >Hello, my name is</p> */}
+                        
                         <h1 className='header-title'> Bhaskar Maity</h1>
                         <p className='header-banner'>
                             {data.headerTagline[0]}
