@@ -71,10 +71,10 @@
 
  /* hr */
  hr {
-  background-color: rgb(97, 219, 251);
+  background-color:#692ba8;
   border-width: 0.1rem;
   border-style: solid;
-  border-color: rgb(97, 219, 251);
+  border-color: #692ba8;
   border-image: initial;
   margin: 2rem auto;
 }
@@ -85,7 +85,7 @@
   width: 200px;
   margin-left: auto;
   margin-right: auto;
-  background-color:#00e699;
+  background-color:#692ba8;
   
 }
 .ribbon-little{
@@ -95,7 +95,7 @@
   margin-top: -54px;
   margin-left: auto;
   margin-right: auto;
-  background-color:#00e699;
+  background-color:#692ba8;
 }
 
 /* social icon */

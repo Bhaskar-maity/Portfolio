@@ -6,7 +6,8 @@ import { FiMail } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <section id="social-media">
+    <Fade bottom>
+      <section id="social-media">
     <div class="container">
           <div className="row justify-content-center">             
                 <div className="col-auto">
@@ -31,6 +32,7 @@ const Footer = () => {
         </div>
     </div>
   </section>
+    </Fade>
   )
 }
 

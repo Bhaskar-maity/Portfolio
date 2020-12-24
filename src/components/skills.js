@@ -1,10 +1,12 @@
 import  skillData  from "../mydata";
 import React, { Component }  from 'react';
+import Fade from 'react-reveal/Fade';
 
 const Skills = () => {
   
   return (
-    <section id="skills" className=''>
+    <Fade bottom>
+      <section id="skills" className=''>
       <div className="container text-center">
         <h2>Skills</h2>
         <hr class="ribbon"/>
@@ -21,6 +23,7 @@ const Skills = () => {
         </div>
       </div>
     </section>
+    </Fade>
   );
 };
 

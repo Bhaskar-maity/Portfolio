@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import  'react-bootstrap'
+import Fade from 'react-reveal/Fade';
 import data from '../mydata';
 import myImg from '../images/MyImg1.jpg';
 
 const About =()=> {
     
         return (
-        <div className='container '>
+            <Fade bottom>
+                <div className='container '>
             <h1 className='pb-5 text-center'>About.</h1>
             <hr class="ribbon"/>
             <hr class="ribbon-little"/>
@@ -23,7 +25,9 @@ const About =()=> {
                 </div>
             </div>
 
-        </div>  );
+        </div> 
+            </Fade>
+            );
     
 }
  
