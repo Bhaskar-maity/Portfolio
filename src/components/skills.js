@@ -6,7 +6,7 @@ const Skills = () => {
   
   return (
     <Fade bottom>
-      <section id="skills" className=''>
+      <section id="skills" className='mt-5'>
       <div className="container text-center">
         <h2>Skills</h2>
         <hr class="ribbon"/>

@@ -12,16 +12,16 @@ const About = () => {
         <hr class="ribbon" />
         <hr class="ribbon-little" />
         <div className="row about">
-          <div className="about-content col-md-6">
+          <div className="about-content  col-sm-6">
             <p>{data.abouttext[0]}</p>
             <p>{data.abouttext[1]}</p>
             <p>{data.abouttext[2]}</p>
           </div>
 
-          <div className="col-md-6 about-img">
-            {data.ShowAboutImage ? (
-              <img src={myImg} alt="about iamge" className="img-fluid"></img>
-            ) : null}
+          <div className="col-sm-6 p-2  about-img">
+            
+              <img src={myImg} alt="Bhaskar Maity" className="about-img img-fluid"></img>
+            
           </div>
         </div>
       </div>

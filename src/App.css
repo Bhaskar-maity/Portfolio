@@ -16,14 +16,14 @@
 }
 
 .about-content{
-  padding-top: 2rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  
   font-size: large;
   
 }
 .about-img {
-  padding-top: 3rem;
-  padding-bottom: 6rem;
+
+  border-radius: 50%;
 }
 /* heading part */
 .header{

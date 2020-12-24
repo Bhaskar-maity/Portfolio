@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../mydata"
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter,  } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaKaggle } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 const Footer = () => {
@@ -25,6 +25,7 @@ const Footer = () => {
                                   <li><a href=''><FaInstagram/></a></li>
                                   <li><a href=''><FaTwitter/></a></li>
                                   <li><a href=''><FiMail/></a></li>
+                                  <li><a href=''><FaKaggle/></a></li>
                                   
           </ul>
           </div>

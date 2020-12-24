@@ -37,7 +37,7 @@ export default
         "My Areas of Interest: Machine Learning, Web Development, Mobile App Development",
   ],
        
-       ShowAboutImage:true,
+  
        //  Projects 
        projects: [
         {
