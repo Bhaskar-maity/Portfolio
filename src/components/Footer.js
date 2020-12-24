@@ -20,17 +20,17 @@ const Footer = () => {
         <div className='row'>
           <div className='col-md-6 text-center'>
           <ul className='social-icons-footer mr-auto'>
-                                  <li><a href=''><FaGithub/></a></li>
-                                  <li><a href=''><FaLinkedin/></a></li>
-                                  <li><a href=''><FaInstagram/></a></li>
-                                  <li><a href=''><FaTwitter/></a></li>
-                                  <li><a href=''><FiMail/></a></li>
-                                  <li><a href=''><FaKaggle/></a></li>
+                                  <li><a href='https://github.com/Bhaskar-maity' target='blank'><FaGithub/></a></li>
+                                  <li><a href='https://www.linkedin.com/in/bhaskar-maity-882653190' target='blank'><FaLinkedin/></a></li>
+                                  <li><a href='https://www.instagram.com/btw_bhaskar/' target='blank'><FaInstagram/></a></li>
+                                  <li><a href='https://twitter.com/Bhaskar14153687' target='blank'><FaTwitter/></a></li>
+                                  <li><a href='mailto:maitybhaskar2015@gmail.com' target='blank'><FiMail/></a></li>
+                                  <li><a href='https://www.kaggle.com/bhaskar321' target='blank'><FaKaggle/></a></li>
                                   
           </ul>
           </div>
           <div className=' col-md-6 text-center'>
-                          <p className='ml-quto copyright-footer'>Made By ❤ Bhaskar Maity</p>
+                          <p className='ml-quto copyright-footer'>Made By ❤ Bhaskar Maity    --All Right Reserved</p>
           </div>
         </div>
     </div>
