@@ -1,5 +1,9 @@
-import svm from './images/SVMdigit.png';
+import svm from './images/SVM.png';
 import weather from './images/Weather.jpg';
+import DummyP from './images/DummyPortfolio.png';
+import Mern from './images/MERN.png';
+import Turtle from './images/turtleScreenshot.png';
+import Tourism from './images/touristImg.png';
 import React, { Component }  from 'react';
 import {
   FaHtml5,
@@ -40,8 +44,7 @@ export default
           para:
             "A classic problem in the field of pattern recognition is that of handwritten digit recognition. Suppose that you have images of handwritten digits ranging from 0-9.",
           
-          imageSrc:
-            "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+          imageSrc:svm,
           
           url: "https://github.com/Bhaskar-maity/SVM-Digit-recognition",
         },
@@ -52,7 +55,7 @@ export default
             "A simple weather web application using Html, Css, Javascript, Weathermap Api.", 
           
           imageSrc:
-            "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+            weather,
           
           url: "https://github.com/Bhaskar-maity/Javascript-weather-app",
         },
@@ -63,11 +66,45 @@ export default
             "A simple weather web application using Html, Css, Javascript, Weathermap Api.", 
           
           imageSrc:
-            "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+            DummyP,
           
           url: "https://github.com/Bhaskar-maity/DummyPortfolioWebsite",
         },
+        {
+          id:4 , 
+          title: "Mern-Shopping-List", 
+          para:
+            "Mern-Shopping-List App.", 
+          
+          imageSrc:
+            Mern,
+          
+          url: "https://github.com/Bhaskar-maity/Mern-Shopping-List",
+        },
+        {
+          id:4 , 
+          title: "Turtle-Race-Game_python", 
+          para:
+            "Turtle-Race-Game_python.", 
+          
+          imageSrc:
+            Turtle,
+          
+          url: "https://github.com/Bhaskar-maity/Turtle-Race-Game_python",
+        },
+        {
+          id:4 , 
+          title: "Tourism-website", 
+          para:
+            "A Simple Tourism website made with Html, Css, Javascript, Bootstrap.", 
+          
+          imageSrc:
+            Tourism,
+          
+          url: "https://github.com/Bhaskar-maity/Tourism-website",
+        },
       ],
+
         skills: [
           {
             id: 1,

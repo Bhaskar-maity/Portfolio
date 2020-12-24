@@ -22,7 +22,7 @@ const Work = () => {
               <Card.Img variant="top" src={project.imageSrc} />
               <Card.Body>
                   <a href={project.url} target="_blank" rel="noreferrer">
-                    <Card.Title className="d-inline-block ">
+                    <Card.Title className="d-inline-block">
                       {project.title}
                     </Card.Title>
                   </a>
