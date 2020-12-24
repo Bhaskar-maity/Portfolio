@@ -87,7 +87,7 @@ export default
           {
             id: 4,
             skill: <FaPython className="display-4" />,
-            name: "Sass",
+            name: "Python",
           },
           {
             id: 5,

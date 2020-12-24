@@ -5,7 +5,7 @@ function NavControl() {
 
     return (
 
-<Navbar collapseOnSelect expand="md" className='navbar-dark' variant="dark">
+<Navbar collapseOnSelect expand="md" className='navbar-dark sticky-top' variant="dark">
   <div className='container'>
   <Navbar.Brand href="#home">Bhaskar Maity</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />

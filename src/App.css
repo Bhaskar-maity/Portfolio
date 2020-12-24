@@ -1,20 +1,23 @@
 /* navbar */
 .navbar-dark {
   background-color: #512DA8;
+  font-weight: 500;
+
 }
 
 .about {
-  margin-top: 4rem;
+  margin-top: 0.5rem;
   /* padding-top: 4rem !important; */
 }
 
 .about-content{
-  padding-top: 6rem;
+  padding-top: 2rem;
   padding-bottom: 6rem;
   font-size: large;
+  
 }
 .about-img {
-  padding-top: 7rem;
+  padding-top: 3rem;
   padding-bottom: 6rem;
 }
 /* heading part */
@@ -29,7 +32,7 @@
   
 }
 .header-title{
-  
+  color: #692ba8;
   font-family: 'Montserrat', sans-serif;
   font-size: 5rem;
   box-sizing: border-box;
