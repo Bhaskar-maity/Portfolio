@@ -18,17 +18,19 @@ const Footer = () => {
                 </div>
         
         <div className='row'>
-        <ul className='social-icons-footer mr-auto'>
-                                <li><a href=''><FaGithub/></a></li>
-                                <li><a href=''><FaLinkedin/></a></li>
-                                <li><a href=''><FaInstagram/></a></li>
-                                <li><a href=''><FaTwitter/></a></li>
-                                <li><a href=''><FiMail/></a></li>
-                                
-        </ul>
-        <div className='ml-auto'>
-                        <p className='ml-quto'>Made By Bhaskar Maity</p>
-        </div>
+          <div className='col-md-6 text-center'>
+          <ul className='social-icons-footer mr-auto'>
+                                  <li><a href=''><FaGithub/></a></li>
+                                  <li><a href=''><FaLinkedin/></a></li>
+                                  <li><a href=''><FaInstagram/></a></li>
+                                  <li><a href=''><FaTwitter/></a></li>
+                                  <li><a href=''><FiMail/></a></li>
+                                  
+          </ul>
+          </div>
+          <div className=' col-md-6 text-center'>
+                          <p className='ml-quto copyright-footer'>Made By ❤ Bhaskar Maity</p>
+          </div>
         </div>
     </div>
   </section>

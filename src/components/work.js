@@ -26,7 +26,7 @@ const Work = () => {
                       {project.title}
                     </Card.Title>
                     <Card.Text>
-                `      {project.para}
+                      {project.para}
                     </Card.Text>
                     
                   </a>

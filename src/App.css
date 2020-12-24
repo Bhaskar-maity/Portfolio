@@ -1,3 +1,8 @@
+* {
+  font-family: Source Sans Pro,Helvetica,Arial,sans-serif;
+}
+
+
 /* navbar */
 .navbar-dark {
   background-color: #512DA8;
@@ -33,7 +38,6 @@
 }
 .header-title{
   color: #692ba8;
-  font-family: 'Montserrat', sans-serif;
   font-size: 5rem;
   box-sizing: border-box;
   /* text-align: left; */
@@ -117,6 +121,9 @@
   font-size: 1.8em;
   margin: 0 .5em;
 
+}
+.copyright-footer{
+  margin-top: 15px;
 }
 
 /* a link */
