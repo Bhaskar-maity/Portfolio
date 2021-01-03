@@ -26,12 +26,12 @@
 
   border-radius: 50%;
 }
-/* heading part */
+/* ------------------------------heading part */
 .header{
   height: 700px;
   padding-top: 9rem;
   padding-bottom: 2rem;
-  
+  object-fit: contain;
 }
 .header-para{
   font-size: 1.8rem;
@@ -40,7 +40,7 @@
 .header-title{
   color: #692ba8;
   font-size: 5rem;
-  box-sizing: border-box;
+  
   font-family: 'Frijole', cursive;
   top:2em;
 }
@@ -59,7 +59,19 @@
   font-size: 2.5rem;
 }
 
-/*  Projects */
+@media only screen and (max-width: 600px) {
+  .header-title{
+    font-size: 3rem;
+    font-family: 'Frijole', cursive;
+    top:2em;
+  }
+
+  .header-banner {
+    font-size: 2rem;
+  }
+}
+
+/*  ------------------------------Projects */
 
 .project{
   display: flex;
@@ -84,7 +96,7 @@
   margin: 2rem auto;
 }
 
-/* ribbon */
+/* -------------------------------ribbon */
 .ribbon{
   height: 4px;
   width: 200px;
@@ -103,7 +115,7 @@
   background-color:#692ba8;
 }
 
-/* social icon */
+/* -------------------------------social icon */
 .social-icons {
   list-style: none;
   padding: 0;
@@ -127,7 +139,7 @@
   margin-top: 15px;
 }
 
-/* a link */
+/* ------------------------------a link */
 a {
   text-decoration: none !important;
   color: #575b60;
