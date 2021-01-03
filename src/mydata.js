@@ -4,6 +4,7 @@ import DummyP from './images/DummyPortfolio.png';
 import Mern from './images/MERN.png';
 import Turtle from './images/turtleScreenshot.png';
 import Tourism from './images/touristImg.png';
+import Whatsapp from './images/WhatsappClone.jpg'
 import React from 'react';
 import {
   FaHtml5,
@@ -59,51 +60,68 @@ export default
           imageSrc:
             weather,
           
-          url: "https://github.com/Bhaskar-maity/Javascript-weather-app",
+          // url: "https://github.com/Bhaskar-maity/Javascript-weather-app",
+          url: "https://bhaskar-maity.github.io/Javascript-weather-app/",
         },
         {
           id: 3, 
           title: "DummyPortfolioWebsite", 
           para:
-            "A simple weather web application using Html, Css, Javascript, Weathermap Api.", 
+            "A dummy Portfolio website, with Html, CSS, Javascript, smoothScroll.js, and bootstrap 4. ", 
           
           imageSrc:
             DummyP,
           
-          url: "https://github.com/Bhaskar-maity/DummyPortfolioWebsite",
+          // url: "https://github.com/Bhaskar-maity/DummyPortfolioWebsite",
+          url: "https://bhaskar-maity.github.io/DummyPortfolioWebsite/",
         },
         {
           id:4 , 
           title: "Mern-Shopping-List", 
           para:
-            "Mern-Shopping-List App.", 
+            "shopping list web app by React, Node, Express, and Mongodb. Users can add or delete items on the app .", 
           
           imageSrc:
             Mern,
           
           url: "https://github.com/Bhaskar-maity/Mern-Shopping-List",
         },
+        // {
+        //   id:5 , 
+        //   title: "Turtle-Race-Game_python", 
+        //   para:
+        //     "Turtle-Race-Game_python.", 
+          
+        //   imageSrc:
+        //     Turtle,
+          
+        //   url: "https://github.com/Bhaskar-maity/Turtle-Race-Game_python",
+        // },
+
         {
-          id:4 , 
-          title: "Turtle-Race-Game_python", 
+          id:5 , 
+          title: "WhatsApp Clone", 
           para:
-            "Turtle-Race-Game_python.", 
+            "created this whatsapp clone by React, Firebase real-time database and Google authentication.", 
           
           imageSrc:
-            Turtle,
+          Whatsapp,
           
-          url: "https://github.com/Bhaskar-maity/Turtle-Race-Game_python",
+          // url: "https://github.com/Bhaskar-maity/WhatsApp-Clone",
+          url: "https://whatsapp-clone-1bf30.firebaseapp.com/",
         },
+
         {
-          id:4 , 
+          id:6 , 
           title: "Tourism-website", 
           para:
-            "A Simple Tourism website made with Html, Css, Javascript, Bootstrap.", 
+            "This front-end website is made for a Tourism Company. Made with HTML, CSS, Javascript, Bootstrap and animation stuff.", 
           
           imageSrc:
             Tourism,
           
-          url: "https://github.com/Bhaskar-maity/Tourism-website",
+          // url: "https://github.com/Bhaskar-maity/Tourism-website",
+          url: "https://bhaskar-maity.github.io/Tourism-website/",
         },
       ],
 

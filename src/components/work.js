@@ -36,7 +36,7 @@ const Work = () => {
         })}
       </CardColumns>
       </Fade>
-      <a href='https://github.com/Bhaskar-maity' target='blank'> <Button variant="primary" style={{background:'#692ba8'}}>SEE MORE</Button></a>
+      <a href='https://github.com/Bhaskar-maity' target='blank'> <Button variant="primary" className='resume-button' style={{background:'#692ba8'}}>SEE MORE</Button></a>
     </div>
   </section>
   )
