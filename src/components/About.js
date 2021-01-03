@@ -1,5 +1,4 @@
 import React from "react";
-import "react-bootstrap";
 import Fade from "react-reveal/Fade";
 import data from "../mydata";
 import myImg from "../images/MyImg1.jpg";
