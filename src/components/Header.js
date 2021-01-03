@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import data from '../mydata'
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaKaggle } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
+import { Button } from 'react-bootstrap';
 
 const Header = () => {
     
@@ -38,6 +39,8 @@ const Header = () => {
                                 <li><a href='https://www.kaggle.com/bhaskar321' target="_blank" rel="noopener noreferrer"><FaKaggle/></a></li>
                                 
                             </ul>
+
+                            <Button className="resume-button" ><a href='https://drive.google.com/file/d/1CxBvqnNAhls4b06Fna-1hkyjT5ZZC059/view?usp=sharing' target="_blank" rel="noopener noreferrer">RESUME</a></Button>
                         
                     </Fade>
                 </div>

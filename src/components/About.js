@@ -8,7 +8,7 @@ const About = () => {
   return (
     <Fade bottom>
       <div className="container " id='about'>
-        <h1 className="pb-5 text-center">About</h1>
+        <h1 className="pb-1 pt-5 text-center">About</h1>
         <hr class="ribbon" />
         <hr class="ribbon-little" />
         <div className="row about">
