@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3a88da16.chunk.css",
-    "main.js": "/Portfolio/static/js/main.36e7dcbb.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.36e7dcbb.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.ed63c9dc.chunk.css",
+    "main.js": "/Portfolio/static/js/main.e0f9e572.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e0f9e572.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.9e287cfb.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9e287cfb.js.map",
     "static/css/2.2a86faee.chunk.css": "/Portfolio/static/css/2.2a86faee.chunk.css",
-    "static/js/2.fd92f0f8.chunk.js": "/Portfolio/static/js/2.fd92f0f8.chunk.js",
-    "static/js/2.fd92f0f8.chunk.js.map": "/Portfolio/static/js/2.fd92f0f8.chunk.js.map",
+    "static/js/2.e2165a5a.chunk.js": "/Portfolio/static/js/2.e2165a5a.chunk.js",
+    "static/js/2.e2165a5a.chunk.js.map": "/Portfolio/static/js/2.e2165a5a.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.faa08a75b39c708fd2e184bcf6419afc.js": "/Portfolio/precache-manifest.faa08a75b39c708fd2e184bcf6419afc.js",
+    "precache-manifest.aecb3e4e6002a88041de3c5b4bcf478b.js": "/Portfolio/precache-manifest.aecb3e4e6002a88041de3c5b4bcf478b.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/Portfolio/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.3a88da16.chunk.css.map": "/Portfolio/static/css/main.3a88da16.chunk.css.map",
-    "static/js/2.fd92f0f8.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.fd92f0f8.chunk.js.LICENSE.txt",
+    "static/css/main.ed63c9dc.chunk.css.map": "/Portfolio/static/css/main.ed63c9dc.chunk.css.map",
+    "static/js/2.e2165a5a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e2165a5a.chunk.js.LICENSE.txt",
     "static/media/DummyPortfolio.png": "/Portfolio/static/media/DummyPortfolio.b379fd48.png",
     "static/media/MyImg1.jpg": "/Portfolio/static/media/MyImg1.6f88d692.jpg",
     "static/media/SVM.png": "/Portfolio/static/media/SVM.88a0f7d2.png",
     "static/media/Weather.jpg": "/Portfolio/static/media/Weather.83974289.jpg",
+    "static/media/WhatsappClone.jpg": "/Portfolio/static/media/WhatsappClone.a22bb209.jpg",
     "static/media/touristImg.png": "/Portfolio/static/media/touristImg.be26695e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9e287cfb.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.fd92f0f8.chunk.js",
-    "static/css/main.3a88da16.chunk.css",
-    "static/js/main.36e7dcbb.chunk.js"
+    "static/js/2.e2165a5a.chunk.js",
+    "static/css/main.ed63c9dc.chunk.css",
+    "static/js/main.e0f9e572.chunk.js"
   ]
 }
