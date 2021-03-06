@@ -1,55 +1,106 @@
-import React from 'react';
-import Fade from 'react-reveal/Fade';
-import data from '../mydata'
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaKaggle } from "react-icons/fa";
+import React from "react";
+import Fade from "react-reveal/Fade";
+import data from "../mydata";
+import {
+   FaGithub,
+   FaLinkedin,
+   FaInstagram,
+   FaTwitter,
+   FaKaggle,
+} from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import { Button } from 'react-bootstrap';
+import { Button } from "react-bootstrap";
 
 const Header = () => {
-    
+   return (
+      <div className="container header" id="home">
+         <div className="row">
+            <div className="col-12 text-center">
+               <Fade bottom>
+                  <h1 className="header-title"> Bhaskar Maity</h1>
+                  <p className="header-banner">
+                     {data.headerTagline[0]}
 
-   
-        return (
-        <div className='container header' id='home'>
-            <div className="row">
-                <div className="col-12 text-center">
-                    <Fade bottom>
-                        
-                        <h1 className='header-title'> Bhaskar Maity</h1>
-                        <p className='header-banner'>
-                            {data.headerTagline[0]}
-                            
-                            {data.headerTagline[1]}
-                            <br></br>
-                        </p>
-                            
+                     {data.headerTagline[1]}
+                     <br></br>
+                  </p>
 
-                            <p className='header-para'>
-                                
-                            {data.headerTagline[2]}
-                            <br></br>
-                            </p>
-                        
-                            <ul className='social-icons'>
-                                <li><a href='https://github.com/Bhaskar-maity' target="_blank" rel="noopener noreferrer"><FaGithub/></a></li>
-                                <li><a href='https://www.linkedin.com/in/bhaskar-maity-882653190' target="_blank" rel="noopener noreferrer"><FaLinkedin/></a></li>
-                                <li><a href='https://www.instagram.com/btw_bhaskar/' target="_blank" rel="noopener noreferrer"><FaInstagram/></a></li>
-                                <li><a href='https://twitter.com/Bhaskar14153687' target="_blank" rel="noopener noreferrer"><FaTwitter/></a></li>
-                                <li><a href='mailto:maitybhaskar2015@gmail.com' target="_blank" rel="noopener noreferrer"><FiMail/></a></li>
-                                <li><a href='https://www.kaggle.com/bhaskar321' target="_blank" rel="noopener noreferrer"><FaKaggle/></a></li>
-                                
-                            </ul>
+                  <p className="header-para">
+                     {data.headerTagline[2]}
+                     <br></br>
+                  </p>
 
-                            <Button className="resume-button" ><a href='https://drive.google.com/file/d/1CxBvqnNAhls4b06Fna-1hkyjT5ZZC059/view?usp=sharing' target="_blank" rel="noopener noreferrer">RESUME</a></Button>
-                        
-                    </Fade>
-                </div>
+                  <ul className="social-icons">
+                     <li>
+                        <a
+                           href="https://github.com/Bhaskar-maity"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <FaGithub />
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="https://www.linkedin.com/in/bhaskar-maity-882653190"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <FaLinkedin />
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="https://www.instagram.com/btw_bhaskar/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <FaInstagram />
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="https://twitter.com/Bhaskar14153687"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <FaTwitter />
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="mailto:maitybhaskar2015@gmail.com"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <FiMail />
+                        </a>
+                     </li>
+                     <li>
+                        <a
+                           href="https://www.kaggle.com/bhaskar321"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                        >
+                           <FaKaggle />
+                        </a>
+                     </li>
+                  </ul>
+
+                  <Button className="resume-button">
+                     <a
+                        href="https://drive.google.com/file/d/1YzOFB3YnCBLg7dXJ_J5jnB-Tz7q-XQ8Y/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                     >
+                        RESUME
+                     </a>
+                  </Button>
+               </Fade>
             </div>
-
-
-
-        </div>);
-    
-}
+         </div>
+      </div>
+   );
+};
 
 export default Header;
